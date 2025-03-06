@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    text-align: center;
+}
+.main h2{
+    font-weight: 200;
+    color: hsl(212, 46%, 48%);
+}
+.all{
+    /* border:2px solid green; */
+    position: relative;
+    width: 70%;
+    height: 500px;
+    margin: 5px auto;
+    margin-top: 30px;
+    
+}
+.card{
+    position: absolute;
+    border-top: 5px solid hsl(0, 78%, 62%);
+    width: 30%;
+    height: 200px;
+    left: 35%;
+    justify-content: center;
+}
+.card img{
+    margin-left: 60%;
+    margin-top: 30px;
+}
+
+.calculator{
+    position: absolute;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    width: 30%;
+    height: 200px;
+    top:20%;
+    left:68%
+}
+.calculator img{
+    margin-left: 60%;
+    margin-top: 30px;
+}
+
+.mirror{
+    position: absolute;
+    border-top: 5px solid hsl(180, 62%, 55%) ;
+    width: 30%;
+    height: 200px;
+    top:20%;
+    left:2%;
+border-top: 5px solid hsl(180, 62%, 55%);
+}
+.mirror img{
+    /* border: 3px solid red; */
+    margin-left: 60%;
+    margin-top: 30px;
+}
+.karma{
+    position: absolute;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    width: 30%;
+    height: 200px;
+    top:50%;
+    left:35%;
+}
+.karma img{
+    /* border: 3px solid red; */
+    margin-left: 60%;
+    margin-top: 30px;
+}
