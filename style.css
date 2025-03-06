@@ -10,6 +10,18 @@
     font-weight: 200;
     color: hsl(212, 46%, 48%);
 }
+h1{
+    font-family:Poppins ;
+}
+h2{
+    font-family: Poppins;
+}
+h3{
+    font-family: Poppins;
+}
+p{
+    font-family: Poppins;
+}
 .all{
     /* border:2px solid green; */
     position: relative;
